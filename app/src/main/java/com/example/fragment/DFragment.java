@@ -11,9 +11,13 @@ import androidx.fragment.app.Fragment;
 
 public class DFragment extends Fragment {
 
+    private View view;
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_d, container, false);
+        view = inflater.inflate(R.layout.fragment_d, container, false);
+
+        return view;
     }
 }

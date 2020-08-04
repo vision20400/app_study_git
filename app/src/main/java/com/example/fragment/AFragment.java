@@ -21,6 +21,7 @@ public class AFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+
         ViewGroup rv = (ViewGroup) inflater.inflate(R.layout.fragment_a,container,false);
 
         Button button_D = (Button) rv.findViewById(R.id.btnD);

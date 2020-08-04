@@ -12,9 +12,13 @@ import androidx.fragment.app.Fragment;
 
 public class BFragment extends Fragment {
 
+    private View view;
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_b, container, false);
+        view = inflater.inflate(R.layout.fragment_b, container, false);
+
+        return view;
     }
 }
