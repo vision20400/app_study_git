@@ -31,6 +31,11 @@
             android:layout_height="wrap_content"
             android:text="촬영" />
 
+        <Button
+            android:id="@+id/gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="갤러리" />
     </LinearLayout>
 
 
